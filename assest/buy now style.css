@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./image/1000_F_342834348_9j99Kp15x1wZdT1oShTUXiurVWWDTiDT.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 10;
+   }
+.mobile-card{
+    width: 250px;
+    background-color: rgb(12, 75, 75);
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+  }
+  .mobile-card img{
+    height: 250px;
+    width: inherit;
+  }
+  button{
+    background-color: hsl(305, 54%, 57%);
+    color: blanchedalmond;
+    border:none ;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover{
+    background-color: #28252b;
+  }
+  .wapper-div{
+    display: flex;
+    flex-wrap:wrap;
+   /* align-content: center; */
+   justify-content: center;
+  }
+  #pl{
+    text-align: center;
+    color: rgb(248, 246, 243);
+  }
